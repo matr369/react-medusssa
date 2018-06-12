@@ -13,8 +13,8 @@ export class MainHeader extends Component {
                             <img src={this.props.logo} height="42" className="brand-logo-icon" alt="logo" />
                         </a>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
-                            <li><a href="/">Contacts</a></li>
-                            <li><a href="/">Solutions</a></li>
+                            <li><Link to="/contacts">Contacts</Link></li>
+                            <li><a href="/">Technologies</a></li>
                             <li><Link to="/techboard">JavaScript</Link></li>
                         </ul>
                     </div>

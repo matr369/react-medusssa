@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import DATA from '~data/data.json';
 
-
 export class Overview extends Component {
 
     constructor(props) {

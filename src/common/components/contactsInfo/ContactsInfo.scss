@@ -1,0 +1,17 @@
+.contacts-info-block {
+  position: absolute;
+  max-width: 300px;
+  left: calc(50% + 150px);
+  top: 300px;
+  z-index: 1;
+  .contacts-info {
+    white-space: pre-line;
+    .region-info {
+      font-size: 17px;
+      font-weight: bold;
+    }
+  }
+  .contact-us-button {
+    display: block;
+  }
+}

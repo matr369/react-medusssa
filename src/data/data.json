@@ -36,5 +36,12 @@
         "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js\/gulp\/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
       }
     ]
+  },
+  "contacts": {
+    "coordinates": [53.9045, 27.5615],
+    "phoneNumber": "+375(29) 122-18-03",
+    "email": "info@medusssa.com",
+    "address": "38 Sirokomli street, 999 Office, 220067",
+    "region": "Belarus, Minsk"
   }
 }
