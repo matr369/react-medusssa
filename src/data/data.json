@@ -38,10 +38,11 @@
     ]
   },
   "contacts": {
-    "coordinates": [53.9045, 27.5615],
+    "centerCoordinates": [53.9045, 27.5615],
+    "addressCoordinates": [53.882649, 27.520160],
     "phoneNumber": "+375(29) 122-18-03",
     "email": "info@medusssa.com",
-    "address": "38 Sirokomli street, 999 Office, 220067",
+    "address": "38 Razinskaya street, 999 Office, 220067",
     "region": "Belarus, Minsk"
   }
 }

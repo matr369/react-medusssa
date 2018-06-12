@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Map} from '~common-components/map/Map.jsx';
 import {ContactsInfo} from '~common-components/contactsInfo/ContactsInfo.jsx';
-import {LeaderOverview} from '~common-components/leaderOverview/LeaderOverview.jsx';
 import DATA from '~data/data.json';
 
 export class ContactsPage extends Component {
@@ -13,7 +12,8 @@ export class ContactsPage extends Component {
             address: '',
             email: '',
             region: '',
-            coordinates: []
+            addressCoordinates: [],
+            centerCoordinates: []
         }
     }
 
@@ -23,7 +23,8 @@ export class ContactsPage extends Component {
             address: DATA.contacts.address,
             email: DATA.contacts.email,
             region: DATA.contacts.region,
-            coordinates: DATA.contacts.coordinates
+            addressCoordinates: DATA.contacts.addressCoordinates,
+            centerCoordinates: DATA.contacts.centerCoordinates
         });
     }
 
@@ -32,7 +33,7 @@ export class ContactsPage extends Component {
         return (
             <div className="contacts-page-container">
                 <ContactsInfo {...this.state} />
-                <Map coordinates={this.state.coordinates}/>
+                <Map addressCoordinates={this.state.addressCoordinates} centerCoordinates={this.state.centerCoordinates}/>
             </div>
         );
     }

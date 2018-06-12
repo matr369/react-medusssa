@@ -6,7 +6,7 @@ export class ContactsInfo extends Component {
         return (
             <div className="contacts-info-block">
                 <div className="card">
-                    <div class="card-content grey lighten-4">
+                    <div className="card-content grey lighten-4">
                         <address>
                             <div className="contacts-info">
                                 <div className="region-info">{this.props.region}</div>
