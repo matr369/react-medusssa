@@ -1,0 +1,17 @@
+@import '~materialize-css/sass/materialize';
+
+@import './common/components/header/MainHeader';
+@import './common/components/leader/Leader';
+@import './common/components/leadership/Leadership';
+@import './common/components/overview/Overview';
+@import './common/components/techboard/Techboard';
+@import './common/components/leaderOverview/LeaderOverview';
+
+@import './pages/home/HomePage';
+@import './pages/leader/LeaderPage';
+
+
+body {
+  margin: 0;
+  padding: 0;
+}

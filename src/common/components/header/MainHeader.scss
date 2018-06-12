@@ -1,0 +1,14 @@
+.main-header {
+  nav {
+    @extend .blue, .darken-3;
+  }
+  .brand-logo {
+    .brand-logo-icon {
+      margin: 0 10px;
+      vertical-align: middle;
+    }
+    .brand-logo-text {
+    }
+  }
+}
+

@@ -1,0 +1,40 @@
+{
+  "overview": {
+    "title": "Overview",
+    "text": "Medusssa is web development company for startups, that allows you to rapidly build stable products using our expertise in Ruby on Rails, Angular, React and React Native.We have a very modest TechStack. And we regard this as advantage, since we know all pitfalls and best practices in those technologies. This allows us write code really fast!To make sure the product we build are not only stable but also fancy, we have internal team of designers will bring colors and joy to any start up. "
+  },
+  "leadership": {
+    "title": "Leadership",
+    "introduction": "Medusssa’s leaders bring together decades of experience in technology, development and compliance.",
+    "leaders": [
+      {
+        "id": 1,
+        "name": "Alexey Gnetko",
+        "position": "CEO",
+        "photoUrl": "gnetko",
+        "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js\/gulp\/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
+      },
+      {
+        "id": 2,
+        "name": "Ulad Belskiy",
+        "position": "Chief Compliance Officer",
+        "photoUrl": "belskiy",
+        "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js\/gulp\/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
+      },
+      {
+        "id": 3,
+        "name": "Mary Sobol",
+        "position": "Chief Cryptographer",
+        "photoUrl": "sobol",
+        "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js\/gulp\/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
+      },
+      {
+        "id": 4,
+        "name": "Yauheni Ivashkevich",
+        "position": "CTO",
+        "photoUrl": "ivashkevich",
+        "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js\/gulp\/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
+      }
+    ]
+  }
+}

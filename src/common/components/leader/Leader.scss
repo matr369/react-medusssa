@@ -1,0 +1,19 @@
+
+.leader-container {
+    .leader-image-container {
+        .leader-photo {
+            width: 100%;
+        }
+    }
+
+    .leader-name {
+        font-size: 17px;
+        a {
+            @extend .blue-text, .text-darken-3;
+        }
+    }
+    .leader-position {
+        font-size: 14px;
+        @extend .grey-text, .text-darken-2;
+    }
+}

@@ -1,0 +1,34 @@
+.leadership-container {
+    .leadership-title {
+        font-size: 20px;
+        h3 {
+            font-weight: 300;
+        }
+    }
+
+    .leadership-introduction {
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .leadership-board {
+
+    }
+
+    .leadership-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .leadership-list-item {
+        flex: auto;
+        max-width: 255px;
+        min-width: 255px;
+        margin: 10px 10px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
