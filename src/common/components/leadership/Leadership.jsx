@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {Leader} from '~common-components/leader/Leader.jsx';
 
 
@@ -14,15 +15,29 @@ export class Leadership extends Component {
                 </div>
                 <div className="leadership-board">
                     <ul className="leadership-list">
-                        {this.props.leaders.map((leader) =>
-                            <li key={leader.name} className="leadership-list-item">
-                                <Leader {...leader}/>
-                            </li>
-                        )}
+                        {
+                            (!this.props.isLoading) ?
+                                (this.props.leaders && this.props.leaders.map((leader) =>
+                                        <li key={leader.id} className="leadership-list-item">
+                                            <Leader {...leader}/>
+                                        </li>
+                                ))
+                            : (<div className="progress">
+                                    <div className="indeterminate"></div>
+                                </div>)
+                        }
                     </ul>
                 </div>
             </div>
         );
     }
 }
+
+Leadership.propTypes = {
+    title: PropTypes.string,
+    leaders: PropTypes.array,
+    introduction: PropTypes.string,
+    isLoading: PropTypes.bool,
+    isError: PropTypes.bool
+};
 
