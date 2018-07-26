@@ -14,7 +14,7 @@ export class MainHeader extends Component {
                         </Link>
                         <ul id="nav-mobile" className="right hide-on-med-and-down">
                             <li><Link to="/contacts">Contacts</Link></li>
-                            <li><Link to="/">Technologies</Link></li>
+                            <li><Link to="/projects">Projects</Link></li>
                             <li><Link to="/techboard">JavaScript</Link></li>
                         </ul>
                     </div>

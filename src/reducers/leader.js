@@ -1,14 +1,16 @@
+import {LEADER_ACTIONS as ACTIONS} from '~actions/constants/leader.js';
+
 export const LeaderReducer = (state = {}, action) => {
     const leader = action.leader;
     switch (action.type) {
-        case 'REQUEST_LEADER':
+        case ACTIONS.request:
             return {
                 ...state,
                 [action.id] : {
                     isLoading: true
                 }
             };
-        case 'REQUEST_LEADER_SUCCEEDED':
+        case ACTIONS.requestSucceeded:
             return {
                 ...state,
                 [action.leader.id] : {
@@ -16,7 +18,7 @@ export const LeaderReducer = (state = {}, action) => {
                     isLoading: false
                 }
             };
-        case 'REQUEST_LEADER_FAILED':
+        case ACTIONS.requestFailed:
             return {
                 ...state,
                 [action.leader.id] : {

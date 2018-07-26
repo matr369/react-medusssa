@@ -1,39 +1,39 @@
 import {put, takeEvery, call} from 'redux-saga/effects';
+import {LEADER_ACTIONS as ACTIONS} from '~actions/constants/leader.js';
 import {delay} from 'redux-saga';
 
-export const requestLeader = (id) => {
-    return { type: 'REQUEST_LEADER', id: id};
+const ACTIONS_CREATOR = {
+    [ACTIONS.request]: (id) => {
+        return { type: ACTIONS.request, id: id};
+    },
+    [ACTIONS.requestSucceeded]: (leader) => {
+        return {type: ACTIONS.requestSucceeded, leader: leader};
+    },
+    [ACTIONS.requestFailed]: () => {
+        return { type: ACTIONS.requestFailed};
+    }
 };
-
-export const requestLeaderSuccess = (data) => {
-    return { type: 'REQUEST_LEADER_SUCCEEDED', leader: data};
-};
-
-export const requestLeaderError = () => {
-    return { type: 'REQUEST_LEADER_FAILED'};
-};
-
-export const fetchLeader = (id) => {
-    return { type: 'FETCH_LEADER', id: id};
-};
-
-
-export function* watchFetchLeader() {
-    yield takeEvery('FETCH_LEADER', fetchLeaderAsync);
-}
 
 function* fetchLeaderAsync(args) {
     try {
-        yield put(requestLeader(args.id));
+        yield put(ACTIONS_CREATOR[ACTIONS.request](args.id));
         yield delay(1000);
-        const data = yield call(() => {
+        const leader = yield call(() => {
                 return fetch('http://localhost:5000/leader/' + args.id)
                     .then(res => res.json());
             }
         );
-        yield put(requestLeaderSuccess(data));
+        yield put(ACTIONS_CREATOR[ACTIONS.requestSucceeded](leader));
     } catch (error) {
         console.log(error);
-        yield put(requestLeaderError());
+        yield put(ACTIONS_CREATOR[ACTIONS.requestFailed]());
     }
 }
+
+export function* watchFetchLeader() {
+    yield takeEvery(ACTIONS.fetch, fetchLeaderAsync);
+}
+
+export const fetchLeader = (id) => {
+    return { type: ACTIONS.fetch, id: id};
+};

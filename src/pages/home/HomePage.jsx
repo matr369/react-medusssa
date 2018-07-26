@@ -28,9 +28,9 @@ class HomePage extends Component {
 
 function mapStateToProps (state) {
     return {
-        leaders: state.leadership && state.leadership.leaders,
-        title: state.leadership && state.leadership.title,
-        isLoading: state.leadership && state.leadership.isLoading
+        leaders: state.leadershipPage && state.leadershipPage.leaders,
+        title: state.leadershipPage && state.leadershipPage.title,
+        isLoading: state.leadershipPage && state.leadershipPage.isLoading
     };
 }
 

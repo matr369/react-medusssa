@@ -1,48 +1,116 @@
 {
-  "overview": {
-    "title": "Overview",
-    "text": "Medusssa is web development company for startups, that allows you to rapidly build stable products using our expertise in Ruby on Rails, Angular, React and React Native.We have a very modest TechStack. And we regard this as advantage, since we know all pitfalls and best practices in those technologies. This allows us write code really fast!To make sure the product we build are not only stable but also fancy, we have internal team of designers will bring colors and joy to any start up. "
-  },
-  "leadership": {
-    "title": "Leadership",
-    "introduction": "Medusssa’s leaders bring together decades of experience in technology, development and compliance.",
-    "leaders": [
-      {
-        "id": 1,
-        "name": "Alexey Gnetko",
-        "position": "CEO",
-        "photoUrl": "gnetko",
-        "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js\/gulp\/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
-      },
-      {
-        "id": 2,
-        "name": "Ulad Belskiy",
-        "position": "Chief Compliance Officer",
-        "photoUrl": "belskiy",
-        "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js\/gulp\/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
-      },
-      {
-        "id": 3,
-        "name": "Mary Sobol",
-        "position": "Chief Cryptographer",
-        "photoUrl": "sobol",
-        "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js\/gulp\/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
-      },
-      {
-        "id": 4,
-        "name": "Yauheni Ivashkevich",
-        "position": "CTO",
-        "photoUrl": "ivashkevich",
-        "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js\/gulp\/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
-      }
+    "overview": {
+        "title": "Overview",
+        "text": "Medusssa is web development company for startups, that allows you to rapidly build stable products using our expertise in Ruby on Rails, Angular, React and React Native.We have a very modest TechStack. And we regard this as advantage, since we know all pitfalls and best practices in those technologies. This allows us write code really fast!To make sure the product we build are not only stable but also fancy, we have internal team of designers will bring colors and joy to any start up. "
+    },
+    "leadership": {
+        "title": "Leadership",
+        "introduction": "Medusssa’s leaders bring together decades of experience in technology, development and compliance.",
+        "leaders": [
+            {
+                "id": 1,
+                "name": "Alexey Gnetko",
+                "position": "CEO",
+                "photoUrl": "gnetko",
+                "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js/gulp/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
+            },
+            {
+                "id": 2,
+                "name": "Ulad Belskiy",
+                "position": "Chief Compliance Officer",
+                "photoUrl": "belskiy",
+                "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js/gulp/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
+            },
+            {
+                "id": 3,
+                "name": "Mary Sobol",
+                "position": "Chief Cryptographer",
+                "photoUrl": "sobol",
+                "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js/gulp/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
+            },
+            {
+                "id": 4,
+                "name": "Yauheni Ivashkevich",
+                "position": "CTO",
+                "photoUrl": "ivashkevich",
+                "overview": "Hello. \r\nI'm a frontend developer with 4 years of experience. I have experience in design and development of rich web applications. Able to learn new technologies rapidly and in short period. \r\n\r\nMore about my skills: \r\n* Creating UI design and developing top-notch UX \r\n* Developing responsive and mobile optimized applications with main css frameworks\r\n* Front-end development with Javascript, Typescript and Frameworks: AngularJs and Angular\r\n* Designing and implementing build tools using node.js/gulp/webpack\r\n* Developing and testing web servers, APIs, tools with Node.js. Implementing microservices with Docker.\r\n* Using complete Atlassian Stack for daily workflow.\r\n\r\nStack of technologies:\r\nJavascript and Angular JS, Angular2, TypeScript, Bootstrap, HTML, CSS, SASS, Materialize, JQuery, ES Lint, Grunt, Bower, npm, Gulp, WebPack, Moment JS, NodeJS, MongoDB, SQL, VSC (git), Jira, Idea, webStorm, Chrome DevTools"
+            }
+        ]
+    },
+    "contacts": {
+        "centerCoordinates": [
+            53.9045,
+            27.5615
+        ],
+        "addressCoordinates": [
+            53.882649,
+            27.52016
+        ],
+        "phoneNumber": "+375(29) 122-18-03",
+        "email": "info@medusssa.com",
+        "address": "38 Razinskaya street, 999 Office, 220067",
+        "region": "Belarus, Minsk"
+    },
+    "comments": [
+        {
+            "userId": 4,
+            "commentId": 9,
+            "message": "Hello",
+            "date": "2018-06-20T13:46:57.063Z"
+        },
+        {
+            "userId": 1,
+            "commentId": 8,
+            "message": "Anton Seremiazka privet",
+            "date": "2018-06-20T13:46:44.571Z"
+        },
+        {
+            "userId": 4,
+            "commentId": 7,
+            "message": "Pretty document",
+            "date": "2018-06-20T08:43:50.552Z"
+        },
+        {
+            "userId": 4,
+            "commentId": 6,
+            "message": "Hello from Minsk.",
+            "date": "2018-06-20T07:38:04.049Z"
+        },
+        {
+            "userId": 4,
+            "commentId": 5,
+            "message": "test",
+            "date": "2018-06-20T07:29:14.118Z"
+        },
+        {
+            "userId": 1,
+            "commentId": 4,
+            "message": "hello",
+            "date": "2018-06-20T06:28:17.059Z"
+        },
+        {
+            "userId": 2,
+            "commentId": 3,
+            "message": "test4",
+            "date": "2018-06-19T15:29:02.168Z"
+        },
+        {
+            "userId": 2,
+            "commentId": 2,
+            "message": "test3",
+            "date": "2018-06-19T15:28:56.994Z"
+        },
+        {
+            "userId": 2,
+            "commentId": 1,
+            "message": "test2",
+            "date": "2018-06-19T15:28:52.500Z"
+        },
+        {
+            "userId": 2,
+            "commentId": 0,
+            "message": "test",
+            "date": "2018-06-19T15:28:48.010Z"
+        }
     ]
-  },
-  "contacts": {
-    "centerCoordinates": [53.9045, 27.5615],
-    "addressCoordinates": [53.882649, 27.520160],
-    "phoneNumber": "+375(29) 122-18-03",
-    "email": "info@medusssa.com",
-    "address": "38 Razinskaya street, 999 Office, 220067",
-    "region": "Belarus, Minsk"
-  }
 }

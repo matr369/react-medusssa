@@ -15,13 +15,13 @@ export class ContactsInfo extends Component {
                                     <a href={"tel:" + this.props.phoneNumber}>{this.props.phoneNumber}</a>
                                 </div>
                                 <div className="email-info">
-                                    <a href={"mailto:" + this.props.email}>{this.props.email}</a>
+                                    <a href={"mailto:" + this.props.email} target="_top">{this.props.email}</a>
                                 </div>
                             </div>
                         </address>
                     </div>
                     <div className="card-action blue darken-3 waves-effect waves-light center-align contact-us-button">
-                        <a className="white-text" href={"mailto:" + this.props.email}>
+                        <a className="white-text" href={"mailto:" + this.props.email} target="_top">
                             Contact Us
                         </a>
                     </div>

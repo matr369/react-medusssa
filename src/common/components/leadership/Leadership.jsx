@@ -4,6 +4,22 @@ import {Leader} from '~common-components/leader/Leader.jsx';
 
 
 export class Leadership extends Component {
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            filter: ''
+        };
+    }
+
+    onChangeHandler(e) {
+        let filter = e.target.value;
+        this.setState({
+            filter: filter
+        });
+    }
+
     render() {
         return (
             <div className="raw leadership-container">
@@ -13,13 +29,24 @@ export class Leadership extends Component {
                 <div className="leadership-introduction grey-text text-darken-2">
                     <p>{this.props.introduction}</p>
                 </div>
+                <div className="row">
+                    <div className="input-field col s6">
+                        <input id="filter2" type="text" className="validate" onChange={this.onChangeHandler.bind(this)}/>
+                        <label className="active" htmlFor="filter2">Filter...</label>
+                    </div>
+                </div>
                 <div className="leadership-board">
                     <ul className="leadership-list">
                         {
                             (!this.props.isLoading) ?
-                                (this.props.leaders && this.props.leaders.map((leader) =>
+                                (this.props.leaders && this.props.leaders
+                                    .filter(leader => {
+                                        return leader.name.indexOf(this.state.filter) > -1;
+                                    })
+                                    .map(leader =>
                                         <li key={leader.id} className="leadership-list-item">
-                                            <Leader {...leader}/>
+                                            <L
+                                                eader {...leader}/>
                                         </li>
                                 ))
                             : (<div className="progress">
