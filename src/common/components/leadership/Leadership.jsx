@@ -7,13 +7,18 @@ export class Leadership extends Component {
 
     constructor(props) {
         super(props);
-
         this.state = {
             filter: ''
         };
     }
 
     onChangeHandler(e) {
+        //test1
+        //test2
+        //test2-2
+        //test4
+        //test5
+        //test6
         let filter = e.target.value;
         this.setState({
             filter: filter
